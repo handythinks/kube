@@ -1,0 +1,24 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- path: exampleSite/content
+  label: Pages
+  create: all
+- path: exampleSite/content/docs
+  label: Docs
+  create: all
+- path: exampleSite/content/blog
+  label: Blog
+  create: all
+- path: exampleSite/content/faq
+  label: Faq
+  create: all
+upload_dir: exampleSite/static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+version: 0.42.2
